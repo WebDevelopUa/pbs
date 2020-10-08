@@ -1,0 +1,16 @@
+export const INITIAL_GAMER = 'Gamer ID: '
+export const INITIAL_PLAYGROUND = 0
+export const EASY_PLAYGROUND = 5
+export const NORMAL_PLAYGROUND = 10
+export const HARD_PLAYGROUND = 15
+export const INITIAL_PLAYGROUND_SQUARES = []
+export const INITIAL_DELAY = 10000
+export const EASY_DELAY = 2000
+export const NORMAL_DELAY = 1000
+export const HARD_DELAY = 900
+export const USER_SQUARE_COLOR = 'green'
+export const COMP_SQUARE_COLOR = 'red'
+export const RANDOM_SQUARE_COLOR = 'blue'
+export const INITIAL_SQUARE_COLOR = 'white'
+export const INITIAL_MODE = 'empty'
+export const requestURL = "https://starnavi-frontend-test-task.herokuapp.com"

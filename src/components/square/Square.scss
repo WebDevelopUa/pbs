@@ -1,0 +1,39 @@
+.square {
+  border: #134c75 1px solid;
+
+  &.blue {
+    background-color: dodgerblue;
+  }
+
+  &.green {
+    background-color: lightseagreen;
+  }
+
+  &.red {
+    background-color: tomato;
+  }
+
+  &.white {
+    background-color: ghostwhite;
+
+    &:hover, &:focus, &:active {
+      background-color: lightgrey;
+      cursor: pointer;
+    }
+  }
+
+  &.S_size {
+    width: 26.67px;
+    height: 26.67px;
+  }
+
+  &.M_size {
+    width: 40px;
+    height: 40px;
+  }
+
+  &.L_size {
+    width: 80px;
+    height: 80px;
+  }
+}
